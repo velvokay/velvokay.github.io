@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        body:before {
+
+            content: "";
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: -1;
+
+            display: block;
+            background-image: url("images/background.jpg");
+
+            width: 110%;
+            height: 110%;
+            background-repeat: no-repeat;
+            background-size: 110% 110%;
+            -webkit-filter: blur(10px);
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px);
+            -ms-filter: blur(10px);
+            filter: blur(10px);
+            margin: -5px -10px -5px -20px;
+            overflow: hidden;
+        }
+        body {
+
+
+        }
+    </style>
+    <title>Alex Yakovlev</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid" style="width: 1170px">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+            </span>
+
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://uclive.elasticbeanstalk.com/">Scalable Flask application</a></li>
+                        <li><a href="http://velvokay.pythonanywhere.com/">Project tracker web app</a></li>
+                        <li><a href="https://github.com/velvokay/BadukGen">Baduk game</a></li>
+                        <li><a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272356-v1-5_01-mob-rpg-mobs-v1-6v3-updated">Java</a></li>
+                        <li><a href="http://www.github.com/velvokay">Contributions</a></li>
+                        <li><a href="http://devpost.com/velvokay">Devpost</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.github.com/velvokay">Github</a></li>
+                <li><a href="http://www.linkedin.com/in/ayakov1">Linkedin</a></li>
+                <li><a href="/references/CsResume16.pdf">Resume</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container" style="text-align:left; font-family: 'Open Sans', sans-serif; color:white;">
+    <div class="page-header">
+        <h1>Alex Yakovlev</h1>
+
+    </div>
+    <p class="lead">Full-stack developer and computer science student.</p>
+</div>
+<div class="container"  style="text-align:left; font-family: 'Open Sans', sans-serif; color:white; padding-bottom: 50px">
+    <div class="page-header">
+        <h1>Projects</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-lg-4">
+
+            <h2>
+                <a href="http://uclive.elasticbeanstalk.com/">UC Live</a>
+            </h2>
+            <p>Built with Flask and launched on AWS using EC2 Elastic
+                Beanstalk. Transferring is a tedious process. This web-app is a tool for students that displays the
+                classes needed based on target school and major. The resultant report is easily readable in one place
+                and can be saved as a spreadsheet.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <img src="images/examplehome.png" alt="examplehome" class="img-thumbnail">
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <img src="images/examplereports.png" alt="examplereports" class="img-thumbnail">
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-lg-4">
+            <h2>
+                <a href="http://velvokay.pythonanywhere.com/">Log Scribe</a>
+            </h2>
+            <p>A CRUD-based task management application built with Flask and MySQL. This web-app manages tasks and
+                helps keep track of their destinations, contributors, and objectives using a RESTful API.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <img src="images/exampletaskindex.png" alt="exampletaskindex" class="img-thumbnail">
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container" style="text-align: center">
+        <p class="text-muted">alexakovlev@gmail.com | 2016</p>
+    </div>
+</footer>
+
+</body>
+</html>
