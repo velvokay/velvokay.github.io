@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alex Yakovlev</title>
-  <link href="dist/output.css" rel="stylesheet">
+  <link href="dist/output.css?v=20261020" rel="stylesheet">
 </head>
 
 <body class="bg-white text-gray-900 font-sans p-6 md:p-10">
@@ -28,33 +28,20 @@
     <main class="col-span-12 min-w-0 md:col-span-9">
       <section class="col-span-12 grid grid-cols-12 gap-gut mt-10">
 
-        <!-- Project 1 -->
-        <div class="col-span-12 md:col-span-6 flex flex-col min-w-0 gap-4 mb-8">
-          <img
-            src="images/img1.png"
-            alt="Business Connect"
-            class="w-full aspect-video object-contain rounded"
-          >
-          <div>
-            <h2 class="text-xl font-semibold mb-2">Business Connect</h2>
-            <p class="text-sm text-gray-600 leading-relaxed">
-              A platform connecting small business owners with their Apple Maps location.
-            </p>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
+        <!-- FlashCode -->
         <a
           href="https://flashcoder.io"
           target="_blank"
           rel="noopener noreferrer"
           class="col-span-12 md:col-span-6 flex flex-col min-w-0 gap-4 mb-8 cursor-pointer hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 transition-opacity"
         >
-          <img
-            src="images/project2.jpg"
-            alt="FlashCode"
-            class="w-full aspect-video object-contain rounded"
-          >
+          <div class="aspect-video flex items-center justify-center overflow-hidden rounded bg-gray-50">
+            <img
+              src="images/project2.jpg"
+              alt="FlashCode"
+              class="h-full w-full object-contain"
+            >
+          </div>
           <div>
             <h2 class="text-xl font-semibold mb-2">FlashCode</h2>
             <p class="text-sm text-gray-600 leading-relaxed">
@@ -62,6 +49,23 @@
             </p>
           </div>
         </a>
+
+        <!-- Business Connect -->
+        <article class="col-span-12 md:col-span-6 flex flex-col min-w-0 gap-4 mb-8">
+          <div class="aspect-video flex items-center justify-center overflow-hidden rounded bg-gray-50">
+            <img
+              src="images/img1.png"
+              alt="Business Connect"
+              class="h-full w-full object-contain"
+            >
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold mb-2">Business Connect</h2>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              A platform connecting small business owners with their Apple Maps location.
+            </p>
+          </div>
+        </article>
 
       </section>
     </main>
